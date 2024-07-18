@@ -130,7 +130,7 @@
     padding-top: 100px;
     padding-left: 80px;
 }
-.recipes__description{
+.recipes__subtitle{
     margin: 0;
     padding: 0;
     font-family: "Noto Serif",'Times New Roman', serif;
@@ -141,9 +141,10 @@
     padding-left: 80px;
     padding-top: 24px;
 }
-.recipes__description-span{
+.recipes__subtitle-span{
     display: block;
 }
+
 .recipes__videos{
     display: flex;
     flex-direction: row;
@@ -152,23 +153,24 @@
     padding-top: 80px;
     margin-bottom: 215px;
 }
-.recipe__video{
+.recipes__video{
     display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
 }
-.recipe__iframe{
+.recipes__iframe{
     width: 480px;
     height: 273px;
+    border: none;
 }
-.recipe__captions{
+.recipes__video-caption{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 24px;
 }
-.recipe__caption{
+.recipes__caption{
     padding: 0;
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
