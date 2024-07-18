@@ -32,15 +32,15 @@
     display: flex;
     gap: 20px;
     list-style: none;
-}
-.nav__link{
-    text-decoration: none;
-    color: #000000;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+}
+.nav__link{
+    text-decoration: none;
+    color: #000000;
 }
 .header__title{
     padding-left: 80px;
