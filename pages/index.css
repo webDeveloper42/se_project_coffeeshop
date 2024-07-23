@@ -204,6 +204,9 @@
     max-width: 385px;
     width: 100%;
 }
+.form{
+    padding: 10px;
+}
 .reservation__fieldset{
     padding: 0;
     border: none;
