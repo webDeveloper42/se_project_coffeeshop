@@ -15,12 +15,11 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="vendor/normalize.css" >
     <link rel="stylesheet" href="pages/index.css" >
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
 <link 
   href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" 
-  rel="stylesheet"
-/>
+  rel="stylesheet">
   </head>
   <body>
     <div class="page">
@@ -81,20 +80,20 @@
           </div>
         </section>
         <section class="book" id="section-book">
-          <h1 class="reservation__title">Book a table</h1>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
-              <input type="text" class="form__input" required placeholder="Name Surname" name="name">
+              <input type="text" class="form__input" required placeholder="Name Surname" name="name" id="name">
               <label for="number" class="form__label">Number of guests *</label>
-              <input type="number" class="form__input" required placeholder="1-8" name="number">
+              <input type="number" class="form__input" required placeholder="1-8" name="number" id="number">
               <label for="datetime-local" class="form__label">Date & time *</label>
-              <input type="datetime-local" class="form__input" required name="datetime-local">
+              <input type="datetime-local" class="form__input" required name="datetime-local" id="datetime-local">
               <label for="email" class="form__label">Your email *</label>
-              <input type="email" class="form__input" required placeholder="email@email.com" name="email">
+              <input type="email" class="form__input" required placeholder="email@email.com" name="email" id="email">
               <button type="submit" class="form__button">Book a table</button>
               <div class="form__terms">
-                <input type="checkbox" class="form__checkbox" name="terms">
+                <input type="checkbox" class="form__checkbox" name="terms" id="terms">
                 <label for="terms" class="form__label">I agree with the terms of use</label>
               </div>
             </fieldset>
