@@ -80,7 +80,26 @@
               </div>
           </div>
         </section>
-        <section class="book" id="section-book"></section>
+        <section class="book" id="section-book">
+          <h1 class="reservation__title">Book a table</h1>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input type="text" class="form__input" required placeholder="Name Surname" name="name">
+              <label for="number" class="form__label">Number of guests *</label>
+              <input type="number" class="form__input" required placeholder="1-8" name="number">
+              <label for="datetime-local" class="form__label">Date & time *</label>
+              <input type="datetime-local" class="form__input" required name="datetime-local">
+              <label for="email" class="form__label">Your email *</label>
+              <input type="email" class="form__input" required placeholder="email@email.com" name="email">
+              <button type="submit" class="form__button">Book a table</button>
+              <div class="form__terms">
+                <input type="checkbox" class="form__checkbox" name="terms">
+                <label for="terms" class="form__label">I agree with the terms of use</label>
+              </div>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="section-menu"></section>
         <section class="contacts" id="section-contacts"></section>
       </main>
