@@ -1,0 +1,81 @@
+.menu{
+    background-image: url(../images/background_menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 2;
+}
+.menu__title{
+    max-width: 780px;
+    text-align: center;
+    font-family: "Inter", Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 44px; 
+    line-height: 52px;
+    padding: 0;
+    margin-bottom: 24px;
+}
+.menu__subtitle{
+    font-family: "Noto Serif", 'Times New Roman', serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 20px; 
+    line-height: 30px;
+    text-align: center;
+    max-width: 780px;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.menu__cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 100px;
+    justify-content: center;
+}
+.menu__card{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 540px;
+    
+}
+.card__title{
+    display: inline;
+    margin-bottom: 32px;
+    font-family: "Inter", Arial, sans-serif;  
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 20px; 
+    line-height: 30px;
+}
+.card__list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 16px;
+    gap: 10px;
+    font-family: "Noto Serif", 'Times New Roman', serif;  
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 16px; 
+    line-height: 20px;
+}
+.card__name{
+    padding: 0;
+}
+.card__list-divider{
+    border-bottom: 1px solid #000;
+    flex-grow: 3;
+}
+.card__price{
+    padding: 0;
+}
