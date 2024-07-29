@@ -24,12 +24,12 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img src="/images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" class="nav__logo">
+          <img src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" class="nav__logo">
           <ul class="nav__links">
             <li><a href="#section-recipes" class="nav__link" >Recipes</a></li>
             <li><a href="#section-book" class="nav__link">Book a table</a></li>
             <li><a href="#section-menu" class="nav__link">Menu</a></li>
-            <li><a href="#section-contacts" class="nav__link">Contacts</a></li>
+            <li><a href="#section-about" class="nav__link">About</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -39,10 +39,9 @@
           in The Triple Peaks Library
         </h1>
         <p class="header__description">
-          <span class="header__span"> Welcome to our study zone! We've got the coffee to energize you</span> 
-          and the cozy vibes to help you get creative.
+            Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
         </p>
-        <img src="/images/inside_coffee_shop.png" alt="Interior of a cozy coffee shop with customers enjoying their drinks" class="header__image">
+        <img src="./images/inside_coffee_shop.png" alt="Interior of a cozy coffee shop with customers enjoying their drinks" class="header__image">
         <div class="header__footer">
           <div class="header__hours">
             <p class="header__paragraph">Hours:</p>
@@ -58,8 +57,7 @@
             Recipes
           </h2>
           <p class="recipes__subtitle">
-            <span class="recipes__subtitle-span">Check out some recipes we've collected for</span> 
-            your home-brewing convenience:
+            Check out some recipes we've collected for your home-brewing convenience:
           </p>
           <div class="recipes__videos">
               <div class="recipes__video">
@@ -81,19 +79,19 @@
         <section class="reservation" id="section-book">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
-            <fieldset class="reservation__fieldset">
-              <label for="name" class="reservation__label">Name *</label>
-              <input type="text" class="reservation__input" required placeholder="Name Surname" name="name" id="name">
-              <label for="number" class="reservation__label">Number of guests *</label>
-              <input type="number" class="reservation__input" required placeholder="1-8" min="1" max="8" name="number" id="number">
-              <label for="datetime-local" class="reservation__label">Date & time *</label>
-              <input type="datetime-local" class="reservation__input" required name="datetime-local" id="datetime-local">
-              <label for="email" class="reservation__label">Your email *</label>
-              <input type="email" class="reservation__input" required placeholder="email@email.com" name="email" id="email">
-              <button type="submit" class="reservation__button">Book a table</button>
-              <div class="reservation__terms">
-                <input type="checkbox" class="reservation__checkbox" name="terms" id="terms">
-                <label for="terms" class="reservation__label">I agree with the terms of use</label>
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input type="text" class="form__input" required placeholder="Name Surname" name="name" id="name">
+              <label for="number" class="form__label">Number of guests *</label>
+              <input type="number" class="form__input" required placeholder="1-8" min="1" max="8" name="number" id="number">
+              <label for="datetime-local" class="form__label">Date & time *</label>
+              <input type="datetime-local" class="form__input" required name="datetime-local" id="datetime-local">
+              <label for="email" class="form__label">Your email *</label>
+              <input type="email" class="form__input" required placeholder="email@email.com" name="email" id="email">
+              <button type="submit" class="form__button">Book a table</button>
+              <div class="form__terms">
+                <input type="checkbox" class="form__checkbox" name="terms" id="terms">
+                <label for="terms" class="form__label">I agree with the terms of use</label>
               </div>
             </fieldset>
           </form>
@@ -101,94 +99,94 @@
         <section class="menu" id="section-menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.</p>
-          <div class="menu__cards">
-            <div class="menu__card card">
-              <div class="card__title">Filter</div>
-              <div class="card__list-item">
+          <ul class="menu__cards">
+            <ul class="card">
+              <h3 class="card__title">Filter</h3>
+              <li class="card__list-item">
                 <p class="card__name">Regular(12 oz)</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$1</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Large(16 oz)</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$1.25</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">XL(20 oz)</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$1.5</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Party-size(24 oz, decaf)</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$1.75</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Iced Coffee(16 oz)</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$1.25</p>
-              </div>
-            </div>
-            <div class="menu__card card">
-              <div class="card__title">Expresso</div>
-              <div class="card__list-item">
+              </li>
+            </ul>
+            <ul class="card">
+              <h3 class="card__title">Expresso</h3>
+              <li class="card__list-item">
                 <p class="card__name">Mocchiato</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$2.25</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Cortado</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$2.5</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Mocha</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$3</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Sunrise in the Bay Area(decaf)</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$10</p>
-              </div>
-            </div>
-            <div class="menu__card card">
-              <div class="card__title">Baked Goods</div>
-              <div class="card__list-item">
+              </li>
+            </ul>
+            <ul class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <li class="card__list-item">
                 <p class="card__name">Almond Croissant</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$2</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Banana Bread</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$1.75</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Key Lime Pie</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$3</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Blue Velvet Cake</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$3.75</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Web Cookie</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$2</p>
-              </div>
-              <div class="card__list-item">
+              </li>
+              <li class="card__list-item">
                 <p class="card__name">Fresh Bug'uette</p>
                 <span class="card__list-divider"></span>
                 <p class="card__price">$0.25</p>
-              </div>
-            </div>
-          </div>
+              </li>
+            </ul>
+          </ul>
         </section>
-        <section class="contacts" id="section-contacts">
+        <section class="about" id="section-about">
           <div class="about__circle"></div>
           <div class="
           about__circle 
@@ -206,19 +204,23 @@
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <img src="/images/logo_coffeeshop_light.svg" alt="Coffee Shop Logo" class="footer__logo">
+          <img src="./images/logo_coffeeshop_light.svg" alt="Coffee Shop Logo" class="footer__logo">
           <div class="footer__socials">
             <h3 class="footer__heading">Social media</h3>
-            <div class="footer__list">
+            <ul class="footer__list">
               <div class="footer__list-item">
-                <img src="/images/facebook_white.svg" alt="Facebook" class="footer__social-icon">
-                <a href="#" class="footer__social-link">Facebook</a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/facebook_white.svg" alt="Facebook" class="footer__social-icon">
+                  Facebook
+                </a>
               </div>
               <div class="footer__list-item">
-                <img src="/images/instagram_white.svg" alt="Instagram" class="footer__social-icon">
-                <a href="#" class="footer__social-link">Instagram</a>
+                <a href="#" class="footer__social-link">
+                  <img src="./images/instagram_white.svg" alt="Instagram" class="footer__social-icon">
+                  Instagram
+                </a>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <p class="footer__copyright">© 2023 Raymond</p>

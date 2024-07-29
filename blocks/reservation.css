@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/images/background_reservation.svg);
+    background-image: url(../images/background_reservation.svg);
     background-color: #D9E7FF;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,6 +12,8 @@
     padding-bottom: 120px;
 }
 .reservation__title{
+    margin: 0;
+    padding: 0;
     padding-bottom: 80px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -22,74 +24,4 @@
 .reservation__form{
     max-width: 385px;
     width: 100%;
-}
-.form{
-    padding: 10px;
-}
-.reservation__fieldset{
-    padding: 0;
-    border: none;
-    display: flex;
-    flex-direction: column;
-}
-.reservation__label{
-    padding-bottom: 8px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-.reservation__input{
-    margin-bottom: 32px;
-    border-radius: 4px;
-    height: 60px;
-    border: 1px solid #838383;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #838383;
-}
-.reservation__button{
-    margin-bottom: 32px;
-    border-radius: 4px;
-    border: none;
-    height: 60px;
-    background-color: #2F80ED;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-.reservation__button:hover{
-    opacity: 70%;
-
-}
-.reservation__checkbox{
-    width: 20px;
-    height: 20px;
-    border-radius: 2px;
-}
-.reservation__terms{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-.reservation__terms .reservation__label{
-    text-align: center;
-    align-content: center;
-    padding: 0px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
 }

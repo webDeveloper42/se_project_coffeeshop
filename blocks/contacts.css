@@ -1,8 +1,10 @@
-.contacts{
+.about{
     background-color: #0a2850;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    overflow: hidden;
 } 
 .about__title{
     max-width: 251px;
@@ -41,8 +43,8 @@
     width: 426px;
     height: 426px;
     position: absolute;
-    top: 3916px;
-    left: -128px;
+    top: -154px;
+    left: -125px;
 }
 .about__circle_animation_blurred{
     animation: pulsate 1.3s ease-in-out infinite;
