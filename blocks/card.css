@@ -1,6 +1,13 @@
 .card{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
     width: 540px;
-    
+}
+.card__container{
+    padding: 0;
 }
 .card__title{
     margin: 0;
@@ -25,8 +32,12 @@
     font-size: 16px; 
     line-height: 20px;
 }
+.card__list-item:last-child{
+    margin-bottom: 0;
+}
 .card__name{
     padding: 0;
+    margin: 0;
 }
 .card__list-divider{
     border-bottom: 1px solid #000;
@@ -34,4 +45,5 @@
 }
 .card__price{
     padding: 0;
+    margin: 0;
 }
