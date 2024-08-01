@@ -67,4 +67,6 @@
     z-index: 1;
     align-items: end;
     padding: 0px 80px 40px 80px;
+    position: relative;
+    bottom: 445px;
 }
