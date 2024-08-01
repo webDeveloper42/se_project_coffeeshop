@@ -9,6 +9,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .header__title{
     padding-left: 80px;
@@ -46,9 +47,9 @@
 .header__image{
     width: 646px;
     height: 568px;
-    position: relative;
-    top: -468px;
-    right: -777px;
+    position: absolute;
+    top: 73px;
+    right: -19px;
 }
 .header__paragraph{
     margin: 0;
@@ -68,5 +69,4 @@
     align-items: end;
     padding: 0px 80px 40px 80px;
     position: relative;
-    bottom: 445px;
 }
