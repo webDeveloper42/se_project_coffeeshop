@@ -16,3 +16,4 @@ The Project can be found here: https://webdeveloper42.github.io/se_project_coffe
 
 - Test Automation with Cypress
 - Tailwind CSS
+- Responsive Design
