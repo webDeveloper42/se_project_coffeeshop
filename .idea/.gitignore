@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# In main branch only:
+cypress/
+cypress.config.js
+package.json
+package-lock.json
+node_modules/
