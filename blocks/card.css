@@ -1,18 +1,17 @@
-.card{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 540px;
-}
+/*.card{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*    width: 540px;*/
+/*}*/
 .card__container{
     padding: 0;
 }
 .card__title{
-    margin: 0;
     padding: 0;
-    margin-bottom: 32px;
+    margin: 0 0 32px;
     font-family: "Inter", Arial, sans-serif;  
     font-style: normal; 
     font-weight: bold; 

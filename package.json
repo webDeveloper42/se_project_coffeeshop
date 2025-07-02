@@ -1,0 +1,34 @@
+{
+  "name": "se_project_coffeeshop",
+  "version": "1.0.0",
+  "description": "This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief. The Project can be found here: https://webdeveloper42.github.io/se_project_coffeeshop/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webDeveloper42/se_project_coffeeshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/webDeveloper42/se_project_coffeeshop/issues"
+  },
+  "homepage": "https://github.com/webDeveloper42/se_project_coffeeshop#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/vite": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "cypress": "^14.5.0",
+    "postcss": "^8.5.6",
+    "postcss-import": "^16.1.1",
+    "tailwindcss": "^4.1.11",
+    "vite": "^6.3.5"
+  }
+}
