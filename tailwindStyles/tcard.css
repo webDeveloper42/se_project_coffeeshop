@@ -1,0 +1,8 @@
+@layer components{
+    .menu__cards .card{
+        @apply flex flex-col list-none w-[540px];
+    }
+    .menu__cards .card__title{
+        @apply not-italic font-bold text-xl leading-[30px] font-['Inter']
+    }
+}

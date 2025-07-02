@@ -1,0 +1,8 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+@layer components{
+    .menu__cards .card{
+        @apply flex flex-col list-none w-[540px];
+    }
+}

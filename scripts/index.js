@@ -1,0 +1,1 @@
+import '../tailwindStyles/tindex.css'
