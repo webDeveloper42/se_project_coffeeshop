@@ -14,6 +14,6 @@ The Project can be found here: https://webdeveloper42.github.io/se_project_coffe
 
 ## Updated Features
 
-- Test Automation with Cypress
+- Installed Angular
 - Tailwind CSS
-- Responsive Design
+- SEO optimization
